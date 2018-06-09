@@ -1,0 +1,15 @@
+{
+    "name": "mmi/mmi-sitemap",
+    "description": "The MMi framework sitemap module",
+    "keywords": ["mmi", "framework", "sitemap"],
+    "license": "MIT",
+    "require": {
+        "php": ">=5.6.0",
+        "mmi/mmi": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sitemap\\": "src/Sitemap"
+        }
+    }
+}
